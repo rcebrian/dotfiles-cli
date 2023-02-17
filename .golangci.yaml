@@ -1,0 +1,23 @@
+# https://golangci-lint.run/usage/linters/
+linters:
+  disable:
+    - typecheck
+  enable:
+    - bidichk
+    - bodyclose
+    - errcheck
+    - errname
+    - godox
+    - goimports
+    - gosimple
+    - govet
+    - ineffassign
+    - nilnil
+    - staticcheck
+    - unused
+    - usestdlibvars
+    - whitespace
+    - wsl
+linters-settings:
+  wsl:
+    allow-cuddle-declarations: true
