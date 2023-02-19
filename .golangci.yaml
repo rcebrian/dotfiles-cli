@@ -4,6 +4,7 @@ linters:
     - typecheck
   enable:
     - bidichk
+    - misspell
     - bodyclose
     - errcheck
     - errname
