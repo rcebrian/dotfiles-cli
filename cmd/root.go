@@ -17,10 +17,6 @@ var (
 		Short: "Basic CLI tool for dotfiles administration",
 		Long: `This application is a tool to generate, configure
 and restore dotfiles for a unix system.`,
-		Run: func(cmd *cobra.Command, args []string) {
-			author := viper.GetString("author")
-			log.Printf("author is: %s", author)
-		},
 	}
 )
 
