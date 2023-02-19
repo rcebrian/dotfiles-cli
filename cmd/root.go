@@ -58,7 +58,7 @@ func initConfig() {
 		switch {
 		case errors.As(err, notFound):
 			// The config file is optional, we shouldn't exit when the config is not found
-			log.Printf("using defualt config file '%s'\n", cfgFile)
+			log.Printf("using default config file '%s'\n", cfgFile)
 		default:
 			cobra.CheckErr(err)
 		}
